@@ -18,6 +18,9 @@ GameSceneClass::GameSceneClass()
 GameSceneClass::~GameSceneClass()
 {
 
+	delete player;
+	delete enemy1;
+
 }
 
 void GameSceneClass::Move(char* keys, char* preKeys, GameSceneClass* gamescene)
